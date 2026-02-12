@@ -1,54 +1,31 @@
-# Maven
-/target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
-# Gradle
-.gradle/
-build/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Logs
-*.log
-logs/
-
-# IDE
-.idea/
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
 *.ipr
-*.iws
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
 .vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Kafka local data
-/kafka-logs/
-/zookeeper-data/
-/zookeeper-logs/
-
-# Docker
-*.pid
-
-# Spring Boot
-/application-local.yml
-/application-dev.yml
-
-# Lombok
-.lombok/
-
-# Test output
-/test-output/
-
-# Coverage
-/coverage/
-
-# Node (if frontend added later)
-node_modules/
-
-# Misc
-*.swp
-*.swo
