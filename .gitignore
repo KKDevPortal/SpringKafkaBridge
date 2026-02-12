@@ -1,0 +1,54 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kafka local data
+/kafka-logs/
+/zookeeper-data/
+/zookeeper-logs/
+
+# Docker
+*.pid
+
+# Spring Boot
+/application-local.yml
+/application-dev.yml
+
+# Lombok
+.lombok/
+
+# Test output
+/test-output/
+
+# Coverage
+/coverage/
+
+# Node (if frontend added later)
+node_modules/
+
+# Misc
+*.swp
+*.swo
