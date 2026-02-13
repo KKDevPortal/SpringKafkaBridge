@@ -336,5 +336,8 @@ docker-compose down -v
 * Producer = Sends data
 * Consumer = Reads data
 
+
+## Kafka-UI
+- http://localhost:8085
 ---
 
